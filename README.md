@@ -8,7 +8,13 @@ Annotations of [com.github.charlemaznable:logback-miner](https://github.com/Char
 
 ##### Maven Dependency
 
-待发布.
+```xml
+<dependency>
+  <groupId>com.github.charlemaznable</groupId>
+  <artifactId>logback-miner-annotations</artifactId>
+  <version>0.1.2</version>
+</dependency>
+```
 
 ##### Maven Dependency SNAPSHOT
 
@@ -16,6 +22,6 @@ Annotations of [com.github.charlemaznable:logback-miner](https://github.com/Char
 <dependency>
   <groupId>com.github.charlemaznable</groupId>
   <artifactId>logback-miner-annotations</artifactId>
-  <version>0.1.2-SNAPSHOT</version>
+  <version>0.1.3-SNAPSHOT</version>
 </dependency>
 ```
