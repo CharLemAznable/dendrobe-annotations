@@ -9,7 +9,12 @@ import java.lang.annotation.Target;
 
 @Documented
 @Inherited
-@Target(ElementType.FIELD)
+@Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface LogbackSkip {
+public @interface DqlLogBean {
+
+    /**
+     * 指定Dql连接的Diamond配置key
+     */
+    String value() default "";
 }

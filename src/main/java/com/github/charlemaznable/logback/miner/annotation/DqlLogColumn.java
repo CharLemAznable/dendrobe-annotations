@@ -9,9 +9,9 @@ import java.lang.annotation.Target;
 
 @Documented
 @Inherited
-@Target(ElementType.TYPE)
+@Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface LogbackTable {
+public @interface DqlLogColumn {
 
     String value();
 }

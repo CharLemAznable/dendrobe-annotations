@@ -11,10 +11,7 @@ import java.lang.annotation.Target;
 @Inherited
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface LogbackBean {
+public @interface DqlLogTable {
 
-    /**
-     * 指定Dql连接的Diamond配置key
-     */
-    String value() default "";
+    String value();
 }

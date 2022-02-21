@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
 @Inherited
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface LogbackSql {
+public @interface DqlLogSql {
 
     /**
      * 使用的sqlFile路径
