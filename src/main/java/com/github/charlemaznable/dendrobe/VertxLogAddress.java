@@ -1,4 +1,4 @@
-package com.github.charlemaznable.logback.miner.annotation;
+package com.github.charlemaznable.dendrobe;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -11,10 +11,7 @@ import java.lang.annotation.Target;
 @Inherited
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface EsLogBean {
+public @interface VertxLogAddress {
 
-    /**
-     * 指定ElasticSearch客户端的Diamond配置dataId
-     */
     String value() default "";
 }

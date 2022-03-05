@@ -10,18 +10,18 @@
         <version>0.0.7-SNAPSHOT</version>
     </parent>
 
-    <artifactId>logback-miner-annotations</artifactId>
+    <artifactId>dendrobe-annotations</artifactId>
     <version>0.1.7-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Logback Miner Annotations</name>
-    <url>https://github.com/CharLemAznable/logback-miner-annotations</url>
-    <description>Annotations of com.github.charlemaznable:logback-miner.</description>
+    <name>Dendrobe Annotations</name>
+    <url>https://github.com/CharLemAznable/dendrobe-annotations</url>
+    <description>Annotations of com.github.charlemaznable:dendrobe-stamens.</description>
 
     <scm>
-        <connection>scm:git:https://github.com/CharLemAznable/logback-miner-annotations.git</connection>
-        <developerConnection>scm:git:https://github.com/CharLemAznable/logback-miner-annotations.git</developerConnection>
-        <url>https://github.com/CharLemAznable/logback-miner-annotations</url>
+        <connection>scm:git:https://github.com/CharLemAznable/dendrobe-annotations.git</connection>
+        <developerConnection>scm:git:https://github.com/CharLemAznable/dendrobe-annotations.git</developerConnection>
+        <url>https://github.com/CharLemAznable/dendrobe-annotations</url>
     </scm>
 
     <repositories>

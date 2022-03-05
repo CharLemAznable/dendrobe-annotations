@@ -1,4 +1,4 @@
-package com.github.charlemaznable.logback.miner.annotation;
+package com.github.charlemaznable.dendrobe;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -11,10 +11,7 @@ import java.lang.annotation.Target;
 @Inherited
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface DqlLogBean {
+public @interface EsLogIndex {
 
-    /**
-     * 指定Dql连接的Diamond配置key
-     */
     String value() default "";
 }

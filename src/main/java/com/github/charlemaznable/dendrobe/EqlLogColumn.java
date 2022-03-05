@@ -1,4 +1,4 @@
-package com.github.charlemaznable.logback.miner.annotation;
+package com.github.charlemaznable.dendrobe;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -11,5 +11,7 @@ import java.lang.annotation.Target;
 @Inherited
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface DqlLogSkip {
+public @interface EqlLogColumn {
+
+    String value();
 }
