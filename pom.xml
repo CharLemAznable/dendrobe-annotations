@@ -10,18 +10,18 @@
         <version>0.0.7-SNAPSHOT</version>
     </parent>
 
-    <artifactId>dendrobe-annotations</artifactId>
+    <artifactId>logback-dendrobe-annotations</artifactId>
     <version>0.1.7-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Dendrobe Annotations</name>
-    <url>https://github.com/CharLemAznable/dendrobe-annotations</url>
-    <description>Annotations of com.github.charlemaznable:dendrobe-stamens.</description>
+    <name>Logback Dendrobe Annotations</name>
+    <url>https://github.com/CharLemAznable/logback-dendrobe-annotations</url>
+    <description>Annotations of com.github.charlemaznable:logback-dendrobe.</description>
 
     <scm>
-        <connection>scm:git:https://github.com/CharLemAznable/dendrobe-annotations.git</connection>
-        <developerConnection>scm:git:https://github.com/CharLemAznable/dendrobe-annotations.git</developerConnection>
-        <url>https://github.com/CharLemAznable/dendrobe-annotations</url>
+        <connection>scm:git:https://github.com/CharLemAznable/logback-dendrobe-annotations.git</connection>
+        <developerConnection>scm:git:https://github.com/CharLemAznable/logback-dendrobe-annotations.git</developerConnection>
+        <url>https://github.com/CharLemAznable/logback-dendrobe-annotations</url>
     </scm>
 
     <repositories>

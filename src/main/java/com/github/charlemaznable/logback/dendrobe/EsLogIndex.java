@@ -1,4 +1,4 @@
-package com.github.charlemaznable.dendrobe;
+package com.github.charlemaznable.logback.dendrobe;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

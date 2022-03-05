@@ -1,10 +1,10 @@
-### dendrobe-annotations
+### logback-dendrobe-annotations
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.charlemaznable/dendrobe-annotations/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.charlemaznable/dendrobe-annotations/)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.charlemaznable/logback-dendrobe-annotations/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.charlemaznable/logback-dendrobe-annotations/)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
-![GitHub code size](https://img.shields.io/github/languages/code-size/CharLemAznable/dendrobe-annotations)
+![GitHub code size](https://img.shields.io/github/languages/code-size/CharLemAznable/logback-dendrobe-annotations)
 
-Annotations of [com.github.charlemaznable:dendrobe-stamens](https://github.com/CharLemAznable/dendrobe-stamens).
+Annotations of [com.github.charlemaznable:logback-dendrobe](https://github.com/CharLemAznable/logback-dendrobe).
 
 ##### Maven Dependency
 
@@ -15,7 +15,7 @@ Annotations of [com.github.charlemaznable:dendrobe-stamens](https://github.com/C
 ```xml
 <dependency>
   <groupId>com.github.charlemaznable</groupId>
-  <artifactId>dendrobe-annotations</artifactId>
+  <artifactId>logback-dendrobe-annotations</artifactId>
   <version>0.1.7-SNAPSHOT</version>
 </dependency>
 ```

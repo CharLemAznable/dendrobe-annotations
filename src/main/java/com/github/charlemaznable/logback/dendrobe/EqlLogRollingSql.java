@@ -1,4 +1,4 @@
-package com.github.charlemaznable.dendrobe;
+package com.github.charlemaznable.logback.dendrobe;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -11,7 +11,12 @@ import java.lang.annotation.Target;
 @Inherited
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface EqlLogSql {
+public @interface EqlLogRollingSql {
+
+    /**
+     * 表名滚动模式, 仅支持时间日期模式
+     */
+    String tableNamePattern();
 
     /**
      * 使用的sqlFile路径
@@ -24,7 +29,7 @@ public @interface EqlLogSql {
     Class<?> sqlClass() default Void.class;
 
     /**
-     * 日志插入sql语句的sqlId, 默认为: log{CurrentClassSimpleName}
+     * 滚动日志表准备sql语句的sqlId, 默认为: prepare{CurrentClassSimpleName}
      */
     String sqlId() default "";
 }

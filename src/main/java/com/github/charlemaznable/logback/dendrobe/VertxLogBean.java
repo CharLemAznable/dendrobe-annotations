@@ -1,4 +1,4 @@
-package com.github.charlemaznable.dendrobe;
+package com.github.charlemaznable.logback.dendrobe;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -9,9 +9,12 @@ import java.lang.annotation.Target;
 
 @Documented
 @Inherited
-@Target(ElementType.FIELD)
+@Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface EqlLogColumn {
+public @interface VertxLogBean {
 
-    String value();
+    /**
+     * 指定Vert.x实例的Diamond配置dataId
+     */
+    String value() default "";
 }

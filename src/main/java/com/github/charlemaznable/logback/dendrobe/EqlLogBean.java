@@ -1,4 +1,4 @@
-package com.github.charlemaznable.dendrobe;
+package com.github.charlemaznable.logback.dendrobe;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -11,7 +11,10 @@ import java.lang.annotation.Target;
 @Inherited
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface EqlLogTable {
+public @interface EqlLogBean {
 
-    String value();
+    /**
+     * 指定Dql连接的Diamond配置key
+     */
+    String value() default "";
 }
