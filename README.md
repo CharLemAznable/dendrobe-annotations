@@ -8,13 +8,7 @@ Annotations of [com.github.charlemaznable:dendrobe-stamens](https://github.com/C
 
 ##### Maven Dependency
 
-```xml
-<dependency>
-  <groupId>com.github.charlemaznable</groupId>
-  <artifactId>dendrobe-annotations</artifactId>
-  <version>0.1.6</version>
-</dependency>
-```
+待发布.
 
 ##### Maven Dependency SNAPSHOT
 
