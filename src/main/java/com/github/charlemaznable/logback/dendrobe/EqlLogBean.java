@@ -14,7 +14,7 @@ import java.lang.annotation.Target;
 public @interface EqlLogBean {
 
     /**
-     * 指定Dql连接的Diamond配置key
+     * 指定Eql连接的配置key
      */
     String value() default "";
 }
