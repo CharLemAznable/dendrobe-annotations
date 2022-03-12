@@ -8,7 +8,13 @@ Annotations of [com.github.charlemaznable:logback-dendrobe](https://github.com/C
 
 ##### Maven Dependency
 
-待发布.
+```xml
+<dependency>
+  <groupId>com.github.charlemaznable</groupId>
+  <artifactId>logback-dendrobe-annotations</artifactId>
+  <version>0.1.7</version>
+</dependency>
+```
 
 ##### Maven Dependency SNAPSHOT
 
@@ -16,6 +22,6 @@ Annotations of [com.github.charlemaznable:logback-dendrobe](https://github.com/C
 <dependency>
   <groupId>com.github.charlemaznable</groupId>
   <artifactId>logback-dendrobe-annotations</artifactId>
-  <version>0.1.7-SNAPSHOT</version>
+  <version>0.1.8-SNAPSHOT</version>
 </dependency>
 ```
