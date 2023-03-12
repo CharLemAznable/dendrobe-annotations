@@ -11,10 +11,7 @@ import java.lang.annotation.Target;
 @Inherited
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface VertxLogBean {
+public @interface KafkaLogTopic {
 
-    /**
-     * 指定Vert.x实例的Apollo配置property或Diamond配置dataId
-     */
     String value() default "";
 }

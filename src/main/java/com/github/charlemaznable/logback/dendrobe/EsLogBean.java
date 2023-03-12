@@ -14,7 +14,7 @@ import java.lang.annotation.Target;
 public @interface EsLogBean {
 
     /**
-     * 指定ElasticSearch客户端的Diamond配置dataId
+     * 指定ElasticSearch客户端的Apollo配置property或Diamond配置dataId
      */
     String value() default "";
 }
