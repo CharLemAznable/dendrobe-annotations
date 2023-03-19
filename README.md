@@ -12,7 +12,7 @@ Annotations of [com.github.charlemaznable:logback-dendrobe](https://github.com/C
 <dependency>
   <groupId>com.github.charlemaznable</groupId>
   <artifactId>logback-dendrobe-annotations</artifactId>
-  <version>2022.0.5</version>
+  <version>2022.0.6</version>
 </dependency>
 ```
 
@@ -22,6 +22,6 @@ Annotations of [com.github.charlemaznable:logback-dendrobe](https://github.com/C
 <dependency>
   <groupId>com.github.charlemaznable</groupId>
   <artifactId>logback-dendrobe-annotations</artifactId>
-  <version>2022.0.6-SNAPSHOT</version>
+  <version>2022.0.7-SNAPSHOT</version>
 </dependency>
 ```
